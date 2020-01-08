@@ -75,7 +75,7 @@ do
         echo "#"$gps_zeit", unklare Rückmeldung!"
         ;;
    esac     
-   tail -n $((LINES - 7)) $logdatei | column --table -s, --table-columns Zeit,Breitengrad,Längengrad,Geschwindigkeit
+   tail -n $((LINES - 7)) $logdatei | column -t -s,
    throttle=$((throttle-1))
    sleep 5
 done
