@@ -23,3 +23,4 @@ letzten Zeilen der .csv-Datei angezeigt
 konvertiert werden
 
 
+![alt text](https://raw.githubusercontent.com/MelliTiger/trackbash/master/trackbash.png)
